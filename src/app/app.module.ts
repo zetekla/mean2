@@ -10,6 +10,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AppComponent } from './app.component';
 import { BookService } from './book.service';
 import { BookComponent } from './book/book.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
 
 const ROUTES = [
   { path: '', redirectTo: 'books', pathMatch: 'full' },
@@ -19,7 +20,8 @@ const ROUTES = [
 @NgModule({
   declarations: [
     AppComponent,
-    BookComponent
+    BookComponent,
+    BookDetailComponent
   ],
   imports: [
     BrowserModule,
