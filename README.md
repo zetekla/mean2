@@ -4,6 +4,9 @@ POST localhost:3030/book
 
 { "title": "Norwe", "author": "Haruki"}
 
+db: mean2app, 
+collections: books
+
 # Mean2App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
