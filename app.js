@@ -4,6 +4,14 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 
+var mongoose = require('mongoose');
+
+mongoose.Promise = global.Promise;
+
+mongoose.connect('mongodb://localhost/mean2-app')
+  .then(() =>  console.log('connection successful'))
+  .catch((err) => console.error(err));
+
 var book = require('./routes/book');
 var app = express();
 
