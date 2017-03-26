@@ -8,7 +8,7 @@ var mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb://localhost/mean2-app')
+mongoose.connect('mongodb://localhost:27017/mean2app')
   .then(() =>  console.log('connection successful'))
   .catch((err) => console.error(err));
 
