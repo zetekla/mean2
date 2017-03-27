@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { BookService } from '../book.service';
 
 @Component({
@@ -10,7 +11,7 @@ export class BookComponent implements OnInit {
 
   books: any;
 
-  constructor(private bookService: BookService) { }
+  constructor(private bookService: BookService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.getBookList();
