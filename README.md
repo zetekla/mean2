@@ -13,7 +13,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+COMMON WORKFLOW:
+
+`ng build` to apply change from the codebase and then `npm run serve` to serve the content.
+
+~~Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.~~
 
 ## Code scaffolding
 
