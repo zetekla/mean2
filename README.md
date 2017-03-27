@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 COMMON WORKFLOW:
 
-`ng build` to apply change from the codebase and then `npm run serve` to serve the content.
+`ng build` to apply change from the codebase and then `nodemon` or `npm start` to serve the content, app & api both available at localhost:3030
 
 ~~Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.~~
 
